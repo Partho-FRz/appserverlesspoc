@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-export const BaseUrl = "https://serverlesspoc.azurewebsites.net/api";
+// export const BaseUrl = "https://serverlesspoc.azurewebsites.net/api";
+export const BaseUrl = "https://cosmosserverlesspoc.azurewebsites.net/api"
 // export const BaseUrl = "http://localhost:3000/api";
 
 export const http = axios.create({
